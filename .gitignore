@@ -1,0 +1,49 @@
+# Cross-compiler build directories
+build-binutils/
+build-gcc/
+
+# Downloaded archives
+src/*.tar.gz
+src/*.tar.xz
+src/*.tar.bz2
+
+# Extracted compiler sources
+src/binutils-*/
+src/gcc-*/
+
+# Installed cross-compiler
+opt/
+
+# Build output
+build/
+dist/
+out/
+
+# Object files
+*.o
+*.obj
+*.a
+*.so
+*.dll
+*.exe
+
+# Debug symbols
+*.dSYM/
+*.pdb
+
+# Kernel binaries
+*.elf
+*.bin
+*.iso
+*.img
+
+# QEMU logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
